@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'todo/base.html' %}
+{% block body_block %}
+<h1>Todo details....</h1><hr>
+<ul>
+  <li>Todo Task Title:{{todo.title}}</li>
+  <li>todo task description:{{todo.description}}</li>
+  <li>date to do the task:{{todo.date_of_the_task}}</li>
+  <li>start time of the task:{{todo.start_time_of_task}}</li>
+  <li>endtime of the task:{{todo.end_time_of_task}}</li>
+  <li>task status:{{todo.status}}</li>
+  <li>task created date&time:{{todo.created}}</li>
+  <li>task modified at:{{todo.modified}}</li>
+</ul>
+
+{% endblock %}

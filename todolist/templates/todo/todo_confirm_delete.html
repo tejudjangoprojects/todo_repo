@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends 'todo/base.html' %}
+{% block body_block %}
+<h1>Do You Want To Delete {{todo.title}} Record</h1><hr>
+<form  method="post">
+  {%csrf_token%}
+<input type="submit" class="btn btn-lg btn-danger" value="DELETE">&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="/" class='btn btn-lg btn-success'>CANCEL</a>
+</form>
+
+{% endblock %}
