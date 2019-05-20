@@ -1,8 +1,6 @@
-# todo_repo
-# todo_repo
-Project Title:To-DO List App
-Project Description:This application will give support for TODO List of Tasks on what time and date&time we should do the task.
-Prerequisites:- we should install these requirements compulsory in our system to execute the project in our system
+#Project Title:To-DO List App
+#Project Description:This application will give support for TODO List of Tasks on what time and date&time we should do the task.
+#Prerequisites:- we should install these requirements compulsory in our system to execute the project in our system
 altgraph==0.16.1
 argon2-cffi==18.3.0
 asn1crypto==0.24.0
@@ -88,20 +86,20 @@ traitlets==4.3.2
 uritemplate==3.0.0
 urllib3==1.24.1
 Werkzeug==0.14.1
-Installing:-
-django-admin startproject projectname
-py manage.py startapp appname
-add app in settings.py in installedapps 
-create model in models.py file
-register the model in the admin.py file if we want to display the data to the admin interface
-py manage.py makemigrations:to generate sql code
-py manage.py migrate:to execute the generated sql code from this table will be created in the database
-create views for list of tasks and delete tasks and update tasks and create a new resource
-write urlpattern for each view and link urlpatterns with the views
-provide path for static and template files in settings.py so that django can aware about the location.
-and start the development server with command:py manage.py runserver
-and send the request with the url pattern and the corresponding view will be identified and and functionality will be displayed to the templatefile
-create super user with the command:py manage.py createsuperuser and login to django-admin interface
-Deployment to pythoanywhere.com:
-make virtualenv with required installations and run the project in live bash console,add staticfiles and sourcecodepath and virtualenv path in the webapp.
-and run the project and send the request 
+#Installing:-
+#django-admin startproject projectname
+#py manage.py startapp appname
+#add app in settings.py in installedapps 
+#create model in models.py file
+#register the model in the admin.py file if we want to display the data to the admin interface
+#py manage.py makemigrations:to generate sql code
+#py manage.py migrate:to execute the generated sql code from this table will be created in the database
+#create views for list of tasks and delete tasks and update tasks and create a new resource
+#write urlpattern for each view and link urlpatterns with the views
+#provide path for static and template files in settings.py so that django can aware about the location.
+#and start the development server with command:py manage.py runserver
+#and send the request with the url pattern and the corresponding view will be identified and and functionality will be displayed to the templatefile
+#create super user with the command:py manage.py createsuperuser and login to django-admin interface
+#Deployment to pythoanywhere.com:
+#make virtualenv with required installations and run the project in live bash console,add staticfiles and sourcecodepath and virtualenv path in the webapp.
+#and run the project and send the request 
